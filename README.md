@@ -1,17 +1,13 @@
-# web_view_app
+# Web View App
 
-A new Flutter project.
+Simple Flutter app that opens any website inside the app with `webview_flutter`. Type a URL in the address bar (`https://` is added automatically) and browse — a starting point for turning a website into a mobile app.
 
-## Getting Started
+## Stack
+Flutter · webview_flutter
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+```bash
+flutter pub get
+flutter run
+```
+To ship a fixed website as an app, change the start URL in `lib/main.dart` (currently `https://flutter.dev`).
